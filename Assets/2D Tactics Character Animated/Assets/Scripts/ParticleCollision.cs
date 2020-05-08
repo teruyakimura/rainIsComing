@@ -1,12 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ParticleCollision : MonoBehaviour
 {
-    void OnCollisionStay2D(Collision2D col)
+    public Text GameOver_text;
+    public ParticleSystem RainGenerator;
+    public PlayerMovement playerMove;
+    private void OnParticleCollision(GameObject other)
     {
-
-        Debug.Log("hit");
+        if (other.layer.Equals(9)) {
+            playerMove.GetComponent<PlayerMovement>();
+            GameOver_text.text = "GAME OVER";
+            RainGenerator.Stop();
+            playerMove.enabled = false;
+            Debug.Log("passou");
+        }
     }
+
 }

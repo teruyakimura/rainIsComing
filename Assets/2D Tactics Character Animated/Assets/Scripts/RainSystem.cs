@@ -7,7 +7,7 @@ public class RainSystem : MonoBehaviour
     
     public ParticleSystem p;
     float moveSpeed = 0.005f;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +21,6 @@ public class RainSystem : MonoBehaviour
         p.playbackSpeed += Time.deltaTime*moveSpeed;
     }
 
-    public void onParticleTrigger(GameObject other)
-    {
-       Debug.Log("Hit " + other.name);
-       
-    }
 
 
 
