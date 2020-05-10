@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalMove = 0f;
     bool jump = false;
-
+    public bool able = true;
     
     // Update is called once per frame
     void Update()
@@ -22,8 +22,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            jump = true;
-            anim.SetBool("IsJumping", true);
+            if(able == true)
+            {
+                jump = true;
+                anim.SetBool("IsJumping", true);
+            }
+            
         }
     }
 
