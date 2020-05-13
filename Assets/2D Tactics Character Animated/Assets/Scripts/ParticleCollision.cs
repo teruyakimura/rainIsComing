@@ -16,13 +16,8 @@ public class ParticleCollision : MonoBehaviour
             GameOver_text.text = "GAME OVER";
             RainGenerator.Stop();
             playerMove.runSpeed = 0;
-            Debug.Log(playerMove.runSpeed);
             //yield return new WaitForSeconds(4);
-
-            playerMove.able = false;
-            //playerMove.enabled = false;
-            Debug.Log("passou");
-            
+            playerMove.able = false;         
         }
     }
 
