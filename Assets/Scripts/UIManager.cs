@@ -10,8 +10,18 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
     public void LoadLevel(string level)
     {
         SceneManager.LoadScene(level);
+    }
+
+    public void Reload(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Quit(string screen)
+    {
+        SceneManager.LoadScene(screen);
     }
 }
