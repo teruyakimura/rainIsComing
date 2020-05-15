@@ -1,39 +1,45 @@
 fileFormatVersion: 2
-guid: efa9e658b521bc5458eff195ee2fe126
+guid: 6c0035293c4c864468cc620b5b89c2cc
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: AR-Algo-Jump_0
+    second: ALGO-Stand-breathing-1px menor_0
   - first:
       213: 21300002
-    second: AR-Algo-Jump_1
+    second: ALGO-Stand-breathing-1px menor_1
   - first:
       213: 21300004
-    second: AR-Algo-Jump_2
+    second: ALGO-Stand-breathing-1px menor_2
   - first:
       213: 21300006
-    second: AR-Algo-Jump_3
+    second: ALGO-Stand-breathing-1px menor_3
   - first:
       213: 21300008
-    second: AR-Algo-Jump_4
+    second: ALGO-Stand-breathing-1px menor_4
   - first:
       213: 21300010
-    second: AR-Algo-Jump_5
+    second: ALGO-Stand-breathing-1px menor_5
   - first:
       213: 21300012
-    second: AR-Algo-Jump_6
+    second: ALGO-Stand-breathing-1px menor_6
   - first:
       213: 21300014
-    second: AR-Algo-Jump_7
+    second: ALGO-Stand-breathing-1px menor_7
   - first:
       213: 21300016
-    second: AR-Algo-Jump_8
+    second: ALGO-Stand-breathing-1px menor_8
   - first:
       213: 21300018
-    second: AR-Algo-Jump_9
+    second: ALGO-Stand-breathing-1px menor_9
+  - first:
+      213: 21300020
+    second: ALGO-Stand-breathing-1px menor_10
+  - first:
+      213: 21300022
+    second: ALGO-Stand-breathing-1px menor_11
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -64,9 +70,9 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
-    wrapW: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -87,6 +93,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -140,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AR-Algo-Jump_0
+      name: ALGO-Stand-breathing-1px menor_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 180
+        x: 0
+        y: 346
         width: 100
-        height: 164
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,13 +168,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_1
+      name: ALGO-Stand-breathing-1px menor_1
       rect:
         serializedVersion: 2
-        x: 110
-        y: 176
+        x: 100
+        y: 350
         width: 100
-        height: 168
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,11 +189,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_2
+      name: ALGO-Stand-breathing-1px menor_2
       rect:
         serializedVersion: 2
-        x: 208
-        y: 166
+        x: 200
+        y: 346
         width: 100
         height: 170
       alignment: 0
@@ -203,13 +210,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_3
+      name: ALGO-Stand-breathing-1px menor_3
       rect:
         serializedVersion: 2
-        x: 308
-        y: 172
+        x: 300
+        y: 350
         width: 100
-        height: 170
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,13 +231,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_4
+      name: ALGO-Stand-breathing-1px menor_4
       rect:
         serializedVersion: 2
-        x: 418
-        y: 170
-        width: 92
-        height: 168
+        x: 0
+        y: 174
+        width: 100
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,13 +252,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_5
+      name: ALGO-Stand-breathing-1px menor_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 16
-        width: 86
-        height: 165
+        x: 100
+        y: 176
+        width: 100
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,13 +273,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_6
+      name: ALGO-Stand-breathing-1px menor_6
       rect:
         serializedVersion: 2
-        x: 108
-        y: 14
+        x: 200
+        y: 174
         width: 100
-        height: 163
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,11 +294,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_7
+      name: ALGO-Stand-breathing-1px menor_7
       rect:
         serializedVersion: 2
-        x: 212
-        y: 2
+        x: 300
+        y: 176
         width: 100
         height: 170
       alignment: 0
@@ -308,11 +315,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_8
+      name: ALGO-Stand-breathing-1px menor_8
       rect:
         serializedVersion: 2
-        x: 312
-        y: 0
+        x: 0
+        y: 3
         width: 100
         height: 170
       alignment: 0
@@ -329,14 +336,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR-Algo-Jump_9
+      name: ALGO-Stand-breathing-1px menor_9
       rect:
         serializedVersion: 2
-        x: 412
-        y: 2
-        width: 98
+        x: 100
+        y: 5
+        width: 100
         height: 170
-      alignment: 9
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -345,6 +352,48 @@ TextureImporter:
       bones: []
       spriteID: 23305410000000000800000000000000
       internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALGO-Stand-breathing-1px menor_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 100
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALGO-Stand-breathing-1px menor_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 5
+        width: 100
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
