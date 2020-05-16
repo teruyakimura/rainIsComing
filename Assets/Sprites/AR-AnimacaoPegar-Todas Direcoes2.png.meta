@@ -1,45 +1,36 @@
 fileFormatVersion: 2
-guid: 6c0035293c4c864468cc620b5b89c2cc
+guid: ae12ef65a16c2f2408d2c5a305857bb0
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: ALGO-Stand-breathing-1px menor_0
+    second: AR-AnimacaoPegar-Todas Direcoes2_0
   - first:
       213: 21300002
-    second: ALGO-Stand-breathing-1px menor_1
+    second: AR-AnimacaoPegar-Todas Direcoes2_1
   - first:
       213: 21300004
-    second: ALGO-Stand-breathing-1px menor_2
+    second: AR-AnimacaoPegar-Todas Direcoes2_2
   - first:
       213: 21300006
-    second: ALGO-Stand-breathing-1px menor_3
+    second: AR-AnimacaoPegar-Todas Direcoes2_3
   - first:
       213: 21300008
-    second: ALGO-Stand-breathing-1px menor_4
+    second: AR-AnimacaoPegar-Todas Direcoes2_4
   - first:
       213: 21300010
-    second: ALGO-Stand-breathing-1px menor_5
+    second: AR-AnimacaoPegar-Todas Direcoes2_5
   - first:
       213: 21300012
-    second: ALGO-Stand-breathing-1px menor_6
+    second: AR-AnimacaoPegar-Todas Direcoes2_6
   - first:
       213: 21300014
-    second: ALGO-Stand-breathing-1px menor_7
+    second: AR-AnimacaoPegar-Todas Direcoes2_7
   - first:
       213: 21300016
-    second: ALGO-Stand-breathing-1px menor_8
-  - first:
-      213: 21300018
-    second: ALGO-Stand-breathing-1px menor_9
-  - first:
-      213: 21300020
-    second: ALGO-Stand-breathing-1px menor_10
-  - first:
-      213: 21300022
-    second: ALGO-Stand-breathing-1px menor_11
+    second: AR-AnimacaoPegar-Todas Direcoes2_8
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -70,9 +61,9 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,6 +84,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -146,7 +138,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_0
+      name: AR-AnimacaoPegar-Todas Direcoes2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -167,13 +159,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_1
+      name: AR-AnimacaoPegar-Todas Direcoes2_1
       rect:
         serializedVersion: 2
         x: 100
-        y: 350
+        y: 346
         width: 100
-        height: 166
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_2
+      name: AR-AnimacaoPegar-Todas Direcoes2_2
       rect:
         serializedVersion: 2
         x: 200
@@ -209,13 +201,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_3
+      name: AR-AnimacaoPegar-Todas Direcoes2_3
       rect:
         serializedVersion: 2
-        x: 300
-        y: 350
+        x: 298
+        y: 346
         width: 100
-        height: 166
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +222,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_4
+      name: AR-AnimacaoPegar-Todas Direcoes2_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 174
         width: 100
         height: 170
@@ -251,11 +243,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_5
+      name: AR-AnimacaoPegar-Todas Direcoes2_5
       rect:
         serializedVersion: 2
-        x: 100
-        y: 176
+        x: 94
+        y: 174
         width: 100
         height: 170
       alignment: 0
@@ -272,10 +264,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_6
+      name: AR-AnimacaoPegar-Todas Direcoes2_6
       rect:
         serializedVersion: 2
-        x: 200
+        x: 196
         y: 174
         width: 100
         height: 170
@@ -293,11 +285,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_7
+      name: AR-AnimacaoPegar-Todas Direcoes2_7
       rect:
         serializedVersion: 2
-        x: 300
-        y: 176
+        x: 298
+        y: 174
         width: 100
         height: 170
       alignment: 0
@@ -314,11 +306,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_8
+      name: AR-AnimacaoPegar-Todas Direcoes2_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
+        y: 6
         width: 100
         height: 170
       alignment: 0
@@ -330,69 +322,6 @@ TextureImporter:
       bones: []
       spriteID: 03305410000000000800000000000000
       internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_9
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 5
-        width: 100
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23305410000000000800000000000000
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_10
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 3
-        width: 100
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43305410000000000800000000000000
-      internalID: 21300020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ALGO-Stand-breathing-1px menor_11
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 5
-        width: 100
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63305410000000000800000000000000
-      internalID: 21300022
       vertices: []
       indices: 
       edges: []
