@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 {
     public Text ScoreText;
     private float timer;
-    private float score;
+    public float score;
     public bool enable_score;
     private float increase;
     
@@ -30,7 +30,7 @@ public class Score : MonoBehaviour
 
             //We only need to update the text if the score changed.
             ScoreText.text = "Score: " + (int)score;
-            score += increase * Time.deltaTime;
+            score += increase * Time.deltaTime*1000;
 
 
         }
